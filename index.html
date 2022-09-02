@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UI/UX Designer">
     <title>Lucas Eniola</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +16,37 @@
 
     <div id="overlay">
         <div id="modal">
-            <h2>Contact Details</h2>
-            <p>Homer Simpson, 742 Evergreen Terrace (no spam please!) 😀'</p>
-            <button id="close-modal">Close!</button>      
+            <button id="close-modal">X</button> 
+            <img src="images/lucas 1.png" alt="">
+            <h2>Contact me</h2>
+            <p>Let's work together and <br> create magic!</p>
+         <form name= "contact" method ="POST" data-netlify="true" action="">
+            <section>
+
+                <div>
+                  <label for="name">Name</label>
+                  <input id="name" type="text" value="" name="name">
+                </div>
+              
+                <div style="float:left;">
+                  <label for="email">Email</label>
+                  <input id="email" type="text" value="" name="email">
+                </div>
+              
+                <br style="clear:both;" />
+              
+                  </section>
+              
+                  <section>
+                  <label for="message">Message <textarea name="message" id="" cols="30" rows="10"></textarea></label>
+                 
+              
+                  </section>
+                  <button type="submit" class="submit-btn">Submit</button>
+              </form>
+              
+      
+              
         </div>
        </div> 
        <main>
