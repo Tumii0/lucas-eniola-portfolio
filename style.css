@@ -57,9 +57,10 @@
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+    color: var(--background-color) !important;
    }
    #modal img{
-    width: 80px
+    width: 100px
    }
    label{
     margin-top: 10px;
