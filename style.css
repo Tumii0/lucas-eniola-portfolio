@@ -54,6 +54,7 @@
     right: 30px;
     border: none;
     background: transparent;
+    font-family: cursive;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -104,7 +105,7 @@ display: none;
    .contact-me-2{
     display: block;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 20px;
        }
    #overlay{
      width: 100%;
