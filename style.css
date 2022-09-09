@@ -75,7 +75,7 @@
     background: #EAEAEA;
     border: none;
     padding: 15px;
-   width: 320px;
+   width: 310px;
     border-radius: 5px;
 
   }
@@ -164,7 +164,7 @@ color: var(--clr-secondary);
 letter-spacing: 3px;
 font-size: 14px;
 }
-   img{
+ .profile-img{
     width: 150px;
    }
    .button-container{
@@ -184,10 +184,15 @@ font-size: 14px;
      font-size: 16px;
      border: none;
      border-radius: 10px;
+     width: 300px;
   
    }
 
-
+form section{
+  display: flex;
+    flex-direction: column;
+    place-items: center;
+}
    @media screen and (min-width: 800px){
     main{
         padding: 40px 40px 20px 40px;
@@ -216,10 +221,10 @@ font-size: 14px;
    
     #modal{
      max-width: 753px;
-      border-radius:  0;
+      border-radius:  15px;
      
     }
-    #modal img {
+  .contact-lucas {
       width: 150px;
     }
     #modal h2{
@@ -239,3 +244,20 @@ font-size: 14px;
       align-items: center;
     }
    }
+   
+@keyframes fadeVisibility {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+@keyframes openVisibility {
+  0%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
