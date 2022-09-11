@@ -193,6 +193,9 @@ form section{
     flex-direction: column;
     place-items: center;
 }
+.linkedin-logo__width{
+  width: 42px;
+}
    @media screen and (min-width: 800px){
     main{
         padding: 40px 40px 20px 40px;
